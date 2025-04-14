@@ -11,7 +11,7 @@ html {
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #00bfff;
+  --color-secondary: #ff7f3f;
   --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -27,7 +27,7 @@ html {
 
 .light-mode {
   --color-primary: #f4f4f8;
-  --color-secondary: #00bfff;
+  --color-secondary: #ff7f3f;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -68,6 +68,18 @@ section {
   padding: 3rem 18rem;
 }
 
+.accent {
+  color: var(--color-secondary);
+}
+
+.bg-accent {
+  background-color: var(--color-secondary);
+}
+
+.border-accent {
+  border-color: var(--color-secondary);
+}
+
 .socials {
   display: flex;
   gap: 1rem;
@@ -75,7 +87,6 @@ section {
 }
 
 .socials a {
-  background-color: var(--color-grey-5);
   color: var(--color-white);
   width: 40px;
   height: 40px;
@@ -89,7 +100,6 @@ section {
 .socials a:hover {
   transform: scale(1.2);
   transition: all 0.4s ease-in-out;
-  background-color: var(--color-grey-4);
 }
 
 @keyframes appear {

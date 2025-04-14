@@ -4,10 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Chinmay Katdare's Portfolio" />
+    <meta name="keywords" content="Chinmay Katdare, Portfolio, Web Developer" />
+    <meta name="author" content="Chinmay Katdare" />
     <title>Chinmay Katdare | Portfolio</title>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,7 +39,7 @@
           <h1 class="name">
             Hello World! I'm<br />
             <span>Chinmay Katdare</span><br />
-            <span style="color: var(--color-secondary)">A</span>
+            <span class="accent">A</span>
             <span id="element"></span>
           </h1>
           <p>
@@ -124,6 +128,12 @@
                 </p>
                 <div class="socials">
                   <a
+                    href="https://github.com/chinmaykatdare05/Vitalize"
+                    target="_blank"
+                    title="GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
                     href="https://vitalize.streamlit.app/"
                     target="_blank"
                     title="Live Demo">
@@ -203,9 +213,21 @@
           </div>
           <div class="contact-content-con">
             <div class="right-contact">
-              <p style="text-align: center">
-                You can connect with me on my email: chinmayy05@gmail.com
-              </p>
+              <form action="" class="contact-form">
+                <div class="input-control i-c-2">
+                  <input type="text" required placeholder="YOUR NAME" />
+                  <input type="email" required placeholder="YOUR EMAIL" />
+                </div>
+                <div class="input-control">
+                  <input type="text" required placeholder="ENTER SUBJECT" />
+                </div>
+                <div class="input-control">
+                  <textarea
+                    cols="15"
+                    rows="8"
+                    placeholder="Message Here..."></textarea>
+                </div>
+              </form>
             </div>
           </div>
         </div>
