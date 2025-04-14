@@ -10,7 +10,7 @@ html {
 }
 
 :root {
-  --color-primary: #191d2b;
+  --color-primary: #0a0a23;
   --color-secondary: #ff7f3f;
   --color-white: #ffffff;
   --color-black: #000;
@@ -26,7 +26,7 @@ html {
 }
 
 .light-mode {
-  --color-primary: #f4f4f8;
+  --color-primary: #f5e9da;
   --color-secondary: #ff7f3f;
   --color-white: #454e56;
   --color-black: #000;
@@ -81,8 +81,9 @@ section {
 }
 
 .socials {
+  padding-left: 20px;
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   margin-top: 2rem;
 }
 
