@@ -12,6 +12,7 @@ html {
 :root {
   --color-primary: #0a0a23;
   --color-secondary: #ff7f3f;
+  /* --color-secondary: #00bfff; */
   --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -28,6 +29,7 @@ html {
 .light-mode {
   --color-primary: #f5e9da;
   --color-secondary: #ff7f3f;
+  /* --color-secondary: #00bfff; */
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -66,18 +68,6 @@ section {
   width: 100%;
   position: relative;
   padding: 3rem 18rem;
-}
-
-.accent {
-  color: var(--color-secondary);
-}
-
-.bg-accent {
-  background-color: var(--color-secondary);
-}
-
-.border-accent {
-  border-color: var(--color-secondary);
 }
 
 .socials {
