@@ -27,7 +27,7 @@ html {
 }
 
 .light-mode {
-  --color-primary: #f5e9da;
+  --color-primary: #f5efed;
   --color-secondary: #ff7f3f;
   /* --color-secondary: #00bfff; */
   --color-white: #454e56;
@@ -43,7 +43,7 @@ html {
 
 body {
   background-color: var(--color-primary);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
@@ -206,7 +206,6 @@ section {
   height: 90%;
   width: 68%;
   margin-left: 4rem;
-  /* background-color: var(--color-black); */
   transition: all 0.4s ease-in-out;
 }
 .header-content .left-header .image img {
@@ -214,7 +213,6 @@ section {
   height: 100%;
   object-fit: cover;
   transition: all 0.4s ease-in-out;
-  /* filter: grayscale(100%); */
 }
 .header-content .left-header .image img:hover {
   filter: grayscale(0);
@@ -285,7 +283,6 @@ section {
   object-fit: cover;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  /* filter: grayscale(100%); */
   transition: all 0.4s ease-in-out;
 }
 .portfolios .portfolio .portfolio-text {
@@ -313,101 +310,6 @@ section {
 .port-text {
   padding: 2rem 0;
   text-align: center;
-}
-
-.contact-content-con {
-  display: flex;
-  padding-top: 3.5rem;
-}
-.contact-content-con {
-  flex: 2;
-}
-.contact-content-con h4 {
-  margin-top: 1rem;
-  font-size: 2rem;
-  text-transform: uppercase;
-}
-.contact-content-con p {
-  margin: 1rem 0;
-  line-height: 2rem;
-}
-.contact-content-con {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.contact-content-con p {
-  margin: 0.3rem 0 !important;
-  padding: 0 !important;
-}
-.contact-content-con {
-  display: grid;
-  grid-template-columns: 40px 1fr;
-}
-.contact-content-con i {
-  display: flex;
-  align-items: center;
-  font-size: 1.3rem;
-}
-.contact-content-con {
-  display: flex;
-  margin-top: 2rem;
-}
-.contact-content-con a {
-  display: flex;
-  align-items: center;
-  color: var(--color-white);
-  background-color: var(--color-grey-5);
-  cursor: pointer;
-  justify-content: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin: 0 0.4rem;
-  transition: all 0.4s ease-in-out;
-}
-.contact-content-con a:hover {
-  background-color: var(--color-secondary);
-}
-.contact-content-con a:hover i {
-  color: var(--color-primary);
-}
-.contact-content-con a i {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.3rem;
-}
-.contact-content-con .right-contact {
-  flex: 3;
-  margin-left: 3rem;
-}
-.contact-content-con .right-contact .input-control {
-  margin: 1.5rem 0;
-}
-.contact-content-con .right-contact .input-control input,
-.contact-content-con .right-contact .input-control textarea {
-  border-radius: 30px;
-  font-weight: inherit;
-  font-size: inherit;
-  font-family: inherit;
-  padding: 0.8rem 1.1rem;
-  outline: none;
-  border: none;
-  background-color: var(--color-grey-5);
-  width: 100%;
-  color: var(--color-white);
-  resize: none;
-}
-.contact-content-con .right-contact .i-c-2 {
-  display: flex;
-}
-.contact-content-con .right-contact .i-c-2 :last-child {
-  margin-left: 1.5rem;
-}
-.contact-content-con .right-contact .submit-btn {
-  display: flex;
-  justify-content: flex-start;
 }
 
 /*Independed components*/
@@ -442,8 +344,8 @@ section {
   content: '';
   position: absolute;
   top: 0;
-  right: 0;
-  transform: translateX(100%);
+  left: 0;
+  transform: translateX(-100%);
   transition: all s ease-out;
   z-index: -1;
 }
@@ -547,27 +449,6 @@ section {
     padding-bottom: 6rem;
   }
 
-  .contact-content-con {
-    flex-direction: column;
-  }
-  .contact-content-con .right-contact {
-    margin-left: 0;
-    margin-top: 2.5rem;
-  }
-
-  .contact-content-con .right-contact .i-c-2 {
-    flex-direction: column;
-  }
-
-  .contact-content-con .right-contact .i-c-2 :last-child {
-    margin-left: 0;
-    margin-top: 1.5rem;
-  }
-
-  .contact-content-con .right-contact {
-    margin-bottom: 6rem;
-  }
-
   .main-title h2 {
     font-size: 2rem;
   }
@@ -581,27 +462,6 @@ section {
 @media screen and (max-width: 1432px) {
   .container {
     padding: 7rem 11rem;
-  }
-
-  .contact-content-con {
-    flex-direction: column;
-  }
-  .contact-content-con .right-contact {
-    margin-left: 0;
-    margin-top: 2.5rem;
-  }
-
-  .contact-content-con .right-contact .i-c-2 {
-    flex-direction: column;
-  }
-
-  .contact-content-con .right-contact .i-c-2 :last-child {
-    margin-left: 0;
-    margin-top: 1.5rem;
-  }
-
-  .contact-content-con .right-contact {
-    margin-bottom: 6rem;
   }
 
   .main-title h2 .bg-text {
